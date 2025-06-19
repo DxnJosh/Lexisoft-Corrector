@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>LexiSoft - Inicio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+
+    header, footer {
+      text-align: center;
+      background: #002f6c;
+      color: white;
+      padding: 10px;
+    }
+
+    h1, h2 {
+      color: #002f6c;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-container img {
+      height: 60px;
+    }
+
+    .logo-container h1 {
+      flex-grow: 1;
+      text-align: center;
+      margin: 0;
+    }
+
+    .content-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .text-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .text-content p {
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .text-content {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="imagenes/logo.jpeg" alt="Logo LexiSoft">
+      <h1>LexiSoft</h1>
+      <img src="imagenes/LOGO_TECNM_BLANCO.png" alt="Logo TecNM">
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="software.html">Nuestro Software</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Introducción</h2>
+    <div class="text-content">
+      <p>LexiSoft es una empresa enfocada en el desarrollo de software de corrección ortográfica y gramatical, utilizando tecnologías de inteligencia artificial y procesamiento de imágenes. Nuestro propósito es mejorar la calidad de la escritura en medios educativos, profesionales y personales.</p>
+      <img src="imagenes/introduccion.jpg" alt="Introducción LexiSoft" class="content-img" style="max-width: 300px;">
+    </div>
+  </section>
+
+  <section>
+    <h2>Misión</h2>
+    <div class="text-content">
+      <img src="imagenes/mision.jpg" alt="Misión LexiSoft" class="content-img" style="max-width: 300px;">
+      <p>Ser una empresa líder en la corrección ortográfica y gramatical mediante inteligencia artificial, optimizando la escritura a través de soluciones innovadoras para transformar textos manuscritos en contenido corregido de alta calidad.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Visión</h2>
+    <div class="text-content">
+      <p>Convertirnos en la plataforma referente a nivel global en corrección ortográfica con IA, facilitando la comunicación efectiva en entornos educativos y profesionales.</p>
+      <img src="imagenes/vision.jpg" alt="Visión LexiSoft" class="content-img" style="max-width: 300px;">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LexiSoft. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
